@@ -3,7 +3,7 @@ const DbStore = require('nedb')
 const cors = require('cors')
 const uuid = require('uuid/v4')
 
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 3131
 
 const app = express()
 const db = new DbStore({ autoload: true, filename: 'todo' })
